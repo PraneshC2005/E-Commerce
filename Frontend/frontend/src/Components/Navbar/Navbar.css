@@ -46,7 +46,7 @@
     width:157px;
     height:58px;
     border:1px solid grey;
-    border-radius: 50%;
+    border-radius: 30%;
     color:gray;
     background: white;
     font-size: medium;
@@ -56,4 +56,16 @@
 }
 .nav-login-cart button:active{
     background-color: azure;
+}
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-35px;
+    margin-left:-55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
 }
