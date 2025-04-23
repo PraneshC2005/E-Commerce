@@ -18,7 +18,7 @@ const ProductDisplay = (props) => {
                 </div>
             </div>
             <div className="productdisplay-right">
-                {product.name};
+                <h1>{product.name}</h1>
                 <div className="productright-left-star">
                     <img src={star_icon} alt="" />
                     <img src={star_icon} alt="" />
@@ -26,8 +26,25 @@ const ProductDisplay = (props) => {
                     <img src={star_icon} alt="" />
                     <img src={star_dull_icon} alt="" />
                 </div>
-                <div className="productright-price">
+                <div className="productright-old_price">
                     <p>${product.old_price}</p>
+                </div>
+                <div className="productright-new_price">
+                    <p>${product.new_price}</p>
+                </div>
+                <div className="product-description">
+                    <p>A lightweight,good sleave shirts.</p>
+                </div>
+                <div className="product-rightsize">
+                    <h1>Select Size</h1>
+                    <p>S</p>
+                    <p>M</p>
+                    <p>L</p>
+                    <p className="product-rightcategory"><span>Category : </span>Men , Shirts</p>
+                    <p className="product-rightcategory"><span>Tags : </span>Men , Shirts</p>
+                </div>
+                <div className="product-display-button">
+                    <button>Add to Cart</button>
                 </div>
             </div>
         </div>
