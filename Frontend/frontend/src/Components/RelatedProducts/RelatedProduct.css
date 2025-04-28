@@ -20,8 +20,8 @@
 .relatedproducts-main{
     margin-top: 50px;
     display: flex;
-    flex-direction: row; /* Change from column to row */
+    flex-direction: row; 
     gap: 30px;
-    flex-wrap: wrap;     /* Allows items to wrap to next line if space runs out */
+    flex-wrap: wrap; 
     justify-content: center; 
 }
